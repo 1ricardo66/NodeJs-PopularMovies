@@ -43,4 +43,9 @@ app.get("/", (req, res) => {
     res.render('index')
 })
 
+app.get("/api", (req, res) => {
+    dados = JSON.stringify(dados)
+    res.send(dados);
+})
+
 app.listen(port)
