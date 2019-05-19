@@ -17,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/1ricardo66/NodeJs-PopularMovies/issues"
   },
-  "homepage": "https://github.com/1ricardo66/NodeJs-PopularMovies#readme"
+  "homepage": "https://github.com/1ricardo66/NodeJs-PopularMovies#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "ejs": "^2.6.1",
+    "express": "^4.17.0",
+    "request": "^2.88.0"
+  }
 }

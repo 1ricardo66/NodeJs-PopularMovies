@@ -1,0 +1,20 @@
+body {
+    background-color: #d5dae6cb;
+}
+
+ul {
+    list-style-type: none
+}
+
+.filmes {
+    padding-top: 7%;
+}
+
+.titulo {
+    margin-top: -10%;
+    text-align: center;
+}
+
+.nota {
+    text-align: center;
+}
