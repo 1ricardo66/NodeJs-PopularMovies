@@ -39,13 +39,16 @@ request("https://www.imdb.com/chart/moviemeter", function(err, res, html) {
 
 //web crawling aqui
 app.get("/", (req, res) => {
-    console.log(dados)
-    res.render('index')
+    res.render('index', { dados: dados })
 })
 
 app.get("/api", (req, res) => {
     dados = JSON.stringify(dados)
     res.send(dados);
+})
+
+app.get('/sobre', (req, res) => {
+    res.render('sobre')
 })
 
 app.listen(port)

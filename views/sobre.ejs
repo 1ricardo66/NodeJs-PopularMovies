@@ -7,9 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="/css/style.css" media="screen" />
-    <title>INDEX</title>
+    <link rel="stylesheet" type="text/css" href="/css/sobre.css" media="screen" />
+
+
+    <title>Sobre</title>
 </head>
 
 <body>
@@ -36,30 +39,21 @@
           </span>
         </div>
     </nav>
-    <div class="filmes">
-        <ul>
+    <div class="sobre">
+        <h1 class="centro" style="text-align:center;">Popular movies</h1>
+        <!--Identar html-->
+        <div class="po">
+            <h3> Pequeno projeto onde o principal foco é o Back-End(Web Crawling)</h3>
+            <h3>As principais missões são:</h3>
 
-            <% dados.forEach(function(data) { %>
-                <li>
-
-                    <img class="img" src="<%=data.img%>" alt="" width="70px">
-                    <p class="titulo">Nome:
-                        <%=data.titulo%>
-                    </p>
-                    <p class="nota">Nota:
-                        <%=data.nota%>
-                    </p>
-                    <br>
-                    <br><br><br>
-
-                </li>
-
-                <% }); %>
-
-
-
-
-        </ul>
+        </div>
+        <div class="porc">
+            <h4>1° Conseguir fazer Web Crawling<i class="fa fa-check"></i></h4>
+            <h4>2° Conseguir criar uma api propria através desses dados<i class="fa fa-check"></i></h4>
+            <h4>3° Conseguir inserir todos os dados em uma variavel<i class="fa fa-check"></i></h4>
+            <h4>4° Passar todos os dados de forma organizada para o front<i class="fa fa-check"></i></h4>
+            <h4 class="hard">5° Deixar o front bonito <i class="fa fa-close"></i><i class="fa fa-close"></i><i class="fa fa-close"></i></h4>
+        </div>
     </div>
 
 
